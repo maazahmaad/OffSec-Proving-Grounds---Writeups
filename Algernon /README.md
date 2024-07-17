@@ -42,3 +42,4 @@ Host script results:
 |   date: N/A
 |_  start_date: N/A
 ```
+![Lab Image](miscellaneous/ftp_login.png)
