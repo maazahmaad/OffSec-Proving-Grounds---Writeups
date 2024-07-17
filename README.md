@@ -6,11 +6,12 @@
 ![Penetration Testing](https://img.shields.io/badge/Penetration%20Testing-Professional-green)
 ![Offensive Security](https://img.shields.io/badge/Offensive%20Security-Advanced-red)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qqGb25h-5Y8?autoplay=1&amp;playsinline=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+https://github.com/user-attachments/assets/1227c813-58d6-47a3-8584-9c64c2b57f8e
 
 # Introduction
 
-Welcome to my repository of daily write-ups for Offensive Security PG machines. Here, I document my journey through various penetration testing exercises, providing in-depth analyses and practical examples. Follow along to gain insights into vulnerability assessments, exploitations, and more.
+This repository contains write-ups for *Offensive Security* PG machines, documenting various penetration testing exercises with in-depth analyses and practical examples. Explore vulnerability assessments, exploitations, and more.
 
 ## Table of Contents
 
