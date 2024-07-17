@@ -6,7 +6,7 @@
 ![Penetration Testing](https://img.shields.io/badge/Penetration%20Testing-Professional-green)
 ![Offensive Security](https://img.shields.io/badge/Offensive%20Security-Advanced-red)
 
-[![OffSec Proving Grounds Introduction](https://img.youtube.com/vi/qqGb25h-5Y8/0.jpg)](https://www.youtube-nocookie.com/embed/qqGb25h-5Y8?autoplay=1&amp;playsinline=1)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qqGb25h-5Y8?autoplay=1&amp;playsinline=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # Introduction
 
