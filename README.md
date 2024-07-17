@@ -2,11 +2,11 @@
 
 ![License](https://img.shields.io/github/license/maazahmaad/OffSec-Proving-Grounds-Writeups)
 ![Issues](https://img.shields.io/github/issues/maazahmaad/OffSec-Proving-Grounds-Writeups)
-![Stars](https://img.shields.io/github/stars/maazahmaad/OffSec-Proving-Grounds-Writeups)
-![Forks](https://img.shields.io/github/forks/maazahmaad/OffSec-Proving-Grounds-Writeups)
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Expert-blue)
 ![Penetration Testing](https://img.shields.io/badge/Penetration%20Testing-Professional-green)
 ![Offensive Security](https://img.shields.io/badge/Offensive%20Security-Advanced-red)
+
+[![OffSec Proving Grounds Introduction](https://img.youtube.com/vi/qqGb25h-5Y8/0.jpg)](https://www.youtube-nocookie.com/embed/qqGb25h-5Y8?autoplay=1&amp;playsinline=1)
 
 # Introduction
 
