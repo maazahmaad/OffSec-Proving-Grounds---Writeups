@@ -90,6 +90,9 @@ IIS Splash Page
 # nothing in gobuster
 ```
 ***4: 9998 IIS 10***
+
+Exploit: https://github.com/devzspy/CVE-2019-7214/blob/master/cve-2019-7214.py
+
 ```
 http://192.168.71.65:9998/interface/root#/login
 SmarterMail Login Page
